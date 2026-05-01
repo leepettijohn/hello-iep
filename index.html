@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hello, IEP.  You Rock!</title>
+  <title>Hello, IEP</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -15,13 +15,36 @@
     h1 { font-size: 2.5rem; margin: 0 0 0.5rem; }
     .accent { color: #ba7517; }
     p { color: #444; }
+    .links {
+      margin: 2rem 0;
+      padding: 1.5rem;
+      background: #faf8f3;
+      border-radius: 8px;
+    }
+    .links h2 { font-size: 1rem; margin: 0 0 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; }
+    .links a {
+      display: block;
+      padding: 0.5rem 0;
+      color: #1f3a5f;
+      text-decoration: none;
+      border-bottom: 1px solid #eee;
+    }
+    .links a:last-child { border-bottom: none; }
+    .links a:hover { color: #ba7517; }
     .footer { margin-top: 3rem; color: #888; font-size: 0.9rem; }
   </style>
 </head>
 <body>
-  <h1>Hello, <span class="accent">IEP.  You Rock</span></h1>
+  <h1>Hello, <span class="accent">IEP</span></h1>
   <p>This is a test site. If you're reading this, the GitHub-to-Netlify pipeline is working.</p>
   <p>The next site published this way will be a real one.</p>
+
+  <div class="links">
+    <h2>Test pages</h2>
+    <a href="about.html">About IEP →</a>
+    <a href="report.html">Sample report →</a>
+  </div>
+
   <div class="footer">
     Innovation Economy Partners · Test publish
   </div>
